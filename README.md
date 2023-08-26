@@ -52,15 +52,15 @@
 
 ###
 
-<h3 align="left">•  What is normalization?</h3>
+<h2 align="left">•  What is normalization?</h2>
 
 ###
 
-<p align="left">The purpose of normalization is to ensure data integrity, that is, to get rid of duplicate data. Thus, it provides an increase in performance. A table should be about a specific topic and contain only supporting topics. It should not contain unnecessary data.</p>
+<p align="left">Normalization aims to minimize data integrity issues, data redundancy, and irregular structures within databases. It provides the necessary steps to enhance the performance of a database. <br><br>Normalization is based on the following general steps to store data in a more organized, consistent, and efficient manner:<br>1. First Normal Form (1NF): Each data cell must contain only atomic (indivisible) values. In other words, a cell should not contain multiple values. If a table doesn't conform to 1NF, data needs to be divided into smaller parts.<br>2. Second Normal Form (2NF): A table must adhere to 1NF and, additionally, all non-key attributes must be functionally dependent on the entire primary key. This eliminates unnecessary data repetition and meaningless relational structures.<br>3. Third Normal Form (3NF): A table should conform to 2NF and, furthermore, all data not dependent on the primary key should be eliminated. This process removes unnecessary dependencies among data.</p>
 
 ###
 
-<h3 align="left">•  Modelling Techniques</h3>
+<h2 align="left">•  Modelling Techniques</h2>
 
 ###
 
@@ -92,7 +92,7 @@
 
 ###
 
-<h3 align="left">•  What are OLTP and OLAP?</h3>
+<h2 align="left">•  What are OLTP and OLAP?</h2>
 
 ###
 
